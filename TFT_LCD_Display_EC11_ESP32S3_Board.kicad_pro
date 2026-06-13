@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TFT_LCD_Display_EC11_Board_r3.kicad_pro",
+    "filename": "TFT_LCD_Display_EC11_ESP32S3_Board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,8 +643,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "TFT_LCD_Display_EC11_Board_r3.kicad_sch",
-        "name": "TFT_LCD_Display_EC11_Board_r3",
+        "filename": "TFT_LCD_Display_EC11_ESP32S3_Board.kicad_sch",
+        "name": "TFT_LCD_Display_EC11_ESP32S3_Board",
         "uuid": "3c59e70f-e9c5-4ef4-a932-269e9554ea5b"
       }
     ],

@@ -12,6 +12,8 @@
 
 *.kicad_sch-bak
 *.kicad_pcb-bak
+_autosave-*.kicad_pcb
+_autosave-*.kicad_sch
 
 #--------------------------------------------------
 # KiCad backup directories

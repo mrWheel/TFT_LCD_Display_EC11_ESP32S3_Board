@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Piggy Back Board for TFT LCD Display EC11 witj ESP32-S3")
+		(date "2026-06-13")
+		(rev "Rev. 3.1")
+		(company "by Willem Aandewiel")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -9818,6 +9824,17 @@
 		(layer "F.SilkS")
 		(uuid "8bd3e22e-a7bf-4f5e-94b2-cb9282ccf3f3")
 	)
+	(gr_circle
+		(center 124.8 84.8)
+		(end 125 84.8)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0f623e31-21ca-4868-ae24-a4896f2319e7")
+	)
 	(gr_line
 		(start 128 124.5)
 		(end 131.25 124.5)
@@ -9827,17 +9844,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "efc93329-6dbc-4213-aa43-a06db4a224ba")
-	)
-	(gr_circle
-		(center 132.5 88)
-		(end 132.7 88)
-		(stroke
-			(width 0.5)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "0f623e31-21ca-4868-ae24-a4896f2319e7")
 	)
 	(gr_circle
 		(center 138 105.5)
@@ -10369,7 +10375,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev.3.0 [06-06-2026]"
+	(gr_text "Rev.3.1 [13-06-2026]"
 		(at 151.5 82.5 180)
 		(layer "F.SilkS")
 		(uuid "fe685879-4018-459e-aa1b-1fc4a8aad4a6")
@@ -10455,7 +10461,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Rev.3.0 [06-06-2026]"
+	(gr_text "Rev.3.1 [13-06-2026]"
 		(at 126 83 180)
 		(layer "B.SilkS")
 		(uuid "adf9b764-8a89-40e7-b6c7-f74fc9bc0089")

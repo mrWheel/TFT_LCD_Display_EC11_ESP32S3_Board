@@ -654,7 +654,7 @@
   "sheets": [
     [
       "3c59e70f-e9c5-4ef4-a932-269e9554ea5b",
-      "TFT_LCD_Display_EC11_Board_r3"
+      "TFT_LCD_Display_EC11_ESP32S3_Board"
     ]
   ],
   "text_variables": {},

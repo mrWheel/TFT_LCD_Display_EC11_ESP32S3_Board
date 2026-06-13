@@ -1,0 +1,277 @@
+(footprint "SOT-223-3_TabPin2"
+		(layer "B.Cu")
+		(uuid "2ba7f4ab-7c0a-4e66-8729-eead0266043d")
+		(at 117.15 88.7 180)
+		(descr "module CMS SOT223 4 pins")
+		(tags "CMS SOT")
+		(property "Reference" "U1"
+			(at 0 4.5 0)
+			(layer "B.SilkS")
+			(uuid "cc1f4606-b88c-4151-aa32-02f88090cc2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MCP1826S"
+			(at 0 -4.5 0)
+			(layer "B.Fab")
+			(uuid "5836a65a-1b2c-4430-954c-9c97ea08a631")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "de677433-9dd0-4c9b-8afb-2ccb70e65c8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "1000mA, Low-Voltage, Low Quiescent Current LDO Regulator, SOT-223, TO-220, TO-263"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2c4c784d-3bb2-400d-80fe-bede1fa6e565")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "SOT?223*TabPin2* TO?220* TO?263*")
+		(path "/e69de897-0803-44f4-b133-5b375d53eba2")
+		(sheetname "/")
+		(sheetfile "TFT_LCD_Display_EC11_Board_r3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.91 3.41)
+			(end 1.91 2.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "2055a09d-57aa-44da-bdcc-8ee58e2c6e20")
+		)
+		(fp_line
+			(start 1.91 -3.41)
+			(end 1.91 -2.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "1e6973c0-5381-4fc6-bd5a-683796783028")
+		)
+		(fp_line
+			(start -1.85 3.41)
+			(end 1.91 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "be785542-7876-426e-85cf-396a98e6a287")
+		)
+		(fp_line
+			(start -1.85 -3.41)
+			(end 1.91 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "806ab0c1-9af1-42d4-92e1-e52fa012f162")
+		)
+		(fp_poly
+			(pts
+				(xy -3.13 3.31) (xy -3.37 3.64) (xy -2.89 3.64) (xy -3.13 3.31)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "485216b9-be5b-4b52-a20c-d19db478c5f8")
+		)
+		(fp_line
+			(start 4.4 3.6)
+			(end -4.4 3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "780952b4-b384-4061-b9b0-0ce75717212e")
+		)
+		(fp_line
+			(start 4.4 -3.6)
+			(end 4.4 3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "71620a8f-4e49-4737-8ef1-219b370ade1c")
+		)
+		(fp_line
+			(start -4.4 3.6)
+			(end -4.4 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "bdbcfd4c-8601-4e60-8d01-e9a4c6edf0f4")
+		)
+		(fp_line
+			(start -4.4 -3.6)
+			(end 4.4 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "647a6ed5-0764-49a4-9152-dca8b79128b3")
+		)
+		(fp_line
+			(start 1.85 3.35)
+			(end 1.85 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "b1253291-f748-4205-b043-ba85494cbbac")
+		)
+		(fp_line
+			(start -0.85 3.35)
+			(end 1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "0ba1cff8-e904-476f-a85e-a7e18ed53e35")
+		)
+		(fp_line
+			(start -1.85 2.35)
+			(end -0.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "4842c4f4-187a-4fd5-a4cb-397875d14f9b")
+		)
+		(fp_line
+			(start -1.85 2.35)
+			(end -1.85 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "10e17156-8194-408d-a254-6f3d78953445")
+		)
+		(fp_line
+			(start -1.85 -3.35)
+			(end 1.85 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "2f484a91-c50e-4c9c-9931-70842d26ac47")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -7.9 0.4 90)
+			(layer "B.Fab")
+			(uuid "78c6d694-c610-4c6e-99c4-eafd67d0bf58")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -3.15 2.3 180)
+			(size 2 1.5)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "~5v")
+			(pinfunction "VI_1")
+			(pintype "power_in")
+			(uuid "0ef1e0e7-a9a7-4f93-a906-bf82bb05a763")
+		)
+		(pad "2" smd roundrect
+			(at -3.15 0 180)
+			(size 2 1.5)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "power_in")
+			(uuid "849050fd-dff4-45a9-8635-e059a6ad0041")
+		)
+		(pad "2" smd roundrect
+			(at 3.15 0 180)
+			(size 2 3.8)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "power_in")
+			(uuid "69f20400-cf32-4e96-82bf-584b5bc01134")
+		)
+		(pad "3" smd roundrect
+			(at -3.15 -2.3 180)
+			(size 2 1.5)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "3v3")
+			(pinfunction "VO_3")
+			(pintype "power_out")
+			(uuid "1aa443ae-5038-47dd-8f7a-b39d1a9ef5f4")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/localLibs/3d/SOT-223.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
